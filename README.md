@@ -29,6 +29,7 @@ El sistema consta de los siguientes componentes principales:
 **Autores**
 
 Leonardo Waked
+
 Jeison Steven Salcedo
 
 © UNAB - 2025

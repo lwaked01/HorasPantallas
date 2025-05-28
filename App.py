@@ -47,8 +47,8 @@ day_type_num = day_type_dict[day_type]
 
 # DataFrame para predicción
 data = pd.DataFrame([[
-    age, gender_num, screen_time_type_num, day_type_num, sample_size
-]], columns=["Age", "Gender", "Screen Time Type", "Day Type", "Sample Size"])
+    age, gender_num, screen_time_type_num, day_type_num
+]], columns=["Age", "Gender", "Screen Time Type", "Day Type"])
 
 # Escalado y predicción
 scaled_data = scaler.transform(data)
